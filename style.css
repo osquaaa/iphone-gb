@@ -5,12 +5,20 @@ body {
 .wrapper {
 	max-width: 1440px;
 }
+.container {
+	padding-top: 50px;
+}
 .popular__goods-title {
 	color: var(--elements-day-main-text, #191816);
 	font-size: 54px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 70px; /* 129.63% */
+}
+.popular__goods-cards {
+	display: flex;
+	padding-top: 64px;
+	justify-content: space-between;
 }
 .popular__goods-card {
 	position: relative;

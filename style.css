@@ -1,0 +1,70 @@
+body {
+	background: var(--backgrounds-day-beige-background, #f1efe4);
+	font-family: 'Raleway', sans-serif;
+}
+.wrapper {
+	max-width: 1440px;
+}
+.popular__goods-title {
+	color: var(--elements-day-main-text, #191816);
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 70px; /* 129.63% */
+}
+.popular__goods-card {
+	position: relative;
+	width: 306px;
+	height: 424px;
+	flex-shrink: 0;
+	background: #fff;
+	border-radius: 32px;
+}
+.popular__goods-card_content {
+	position: absolute;
+	max-width: 258px;
+	left: 24px;
+	top: 24px;
+}
+.popular-card__title {
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px; /* 130% */
+}
+.popular-card__img {
+	display: flex;
+	justify-content: center;
+	width: 258px;
+	height: 202px;
+	flex-shrink: 0;
+	padding-top: 24px;
+}
+.popular-card__button {
+	border-radius: 8px;
+	background: var(--backgrounds-day-for-icons-with-background, #1f222e);
+	width: 258px;
+	padding: 7px 12px;
+	color: #fff;
+	border: none;
+	transition: 0.2s;
+}
+.popular-card__button:hover {
+	transform: scale(1.02);
+}
+.popular-card__price {
+	display: flex;
+	justify-content: space-between;
+	color: #000;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px; /* 130% */
+	padding-top: 24px;
+}
+
+.popular-card__button-content {
+	position: absolute;
+	top: 335px;
+}

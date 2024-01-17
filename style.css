@@ -8,12 +8,51 @@ body {
 .container {
 	padding-top: 50px;
 }
+.popular__goods-upper_content {
+	display: flex;
+	justify-content: space-between;
+}
 .popular__goods-title {
 	color: var(--elements-day-main-text, #191816);
 	font-size: 54px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 70px; /* 129.63% */
+}
+.popular__goods-tooglers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inactive img {
+	transform: rotate(180deg);
+}
+
+.popular__goods-toogler {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	background: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.inactive {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+.active:hover {
+	background: #ffffffce;
+}
+.popular__goods-toogler:not(:last-child) {
+	margin-right: 18px;
+}
+.popular__goods-toogler img {
+	width: 28px;
+	height: 28px;
+}
+.popular__goods-toogler_img {
 }
 .popular__goods-cards {
 	display: flex;

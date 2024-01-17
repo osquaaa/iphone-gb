@@ -2,17 +2,18 @@ body {
 	background: var(--backgrounds-day-beige-background, #f1efe4);
 	font-family: 'Raleway', sans-serif;
 }
+
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 }
-.container {
-	max-width: 1440px;
+._container {
 	padding: 0px 15px;
 	margin: 0px auto;
 	box-sizing: content-box;
+	max-width: 1440px;
 }
 
 .popular__goods-upper_content {
@@ -61,22 +62,25 @@ body {
 }
 .popular__goods-toogler_img {
 }
+.popular__goods-cards_content {
+}
+
 .popular__goods-cards {
-	display: flex;
 	padding-top: 64px;
+	display: flex;
 	justify-content: space-between;
 }
+
 .popular__goods-card {
 	position: relative;
 	width: 306px;
 	height: 424px;
-	flex-shrink: 0;
 	background: #fff;
 	border-radius: 32px;
 }
+
 .popular__goods-card_content {
 	position: absolute;
-	max-width: 258px;
 	left: 24px;
 	top: 24px;
 }

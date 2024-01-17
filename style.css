@@ -3,11 +3,18 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 .wrapper {
-	max-width: 1440px;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 .container {
-	padding-top: 50px;
+	max-width: 1440px;
+	padding: 0px 15px;
+	margin: 0px auto;
+	box-sizing: content-box;
 }
+
 .popular__goods-upper_content {
 	display: flex;
 	justify-content: space-between;

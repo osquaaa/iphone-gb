@@ -80,6 +80,9 @@ body {
 .active:hover {
 	background: #ffffffce;
 }
+.active:active {
+	transform: scale(0.95);
+}
 .popular__goods-toogler:not(:last-child) {
 	margin-right: 18px;
 }
@@ -136,6 +139,9 @@ body {
 .popular-card__button:hover {
 	transform: scale(1.02);
 }
+.popular-card__button:active {
+	transform: scale(0.99);
+}
 .popular-card__price {
 	display: flex;
 	justify-content: space-between;
@@ -150,4 +156,85 @@ body {
 .popular-card__button-content {
 	position: absolute;
 	top: 335px;
+}
+
+.catalog {
+	margin-top: 80px;
+}
+.catalog__upper-content-title {
+	color: var(--elements-day-main-text, #191816);
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 70px; /* 129.63% */
+}
+.catalog__upper-content_buttons {
+	margin-top: 48px;
+}
+.catalog__upper-content_button {
+	padding: 10px 22px 11px 22px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 66px;
+	border: 1px solid var(--elements-day-main-text, #191816);
+	background-color: rgba(25, 24, 22, 0);
+}
+.active-btn {
+	background-color: rgba(25, 24, 22, 1);
+	color: #fff;
+}
+.color-btn {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+}
+.catalog__main-content {
+	margin-top: 64px;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.black {
+	background-color: black;
+}
+
+/* Активный класс для кнопки выбора цвета */
+.active-border {
+	box-shadow: 0px 0px 0px 2px #333;
+	/* border: 5px solid #fe9b07; */
+}
+.card {
+	border-radius: 32px;
+	background: var(---, #fff);
+	border: none;
+	font-weight: 700;
+}
+
+.card-body {
+	position: relative;
+}
+.price {
+}
+
+.buy__button {
+	border-radius: 8px;
+	background: var(--backgrounds-day-for-icons-with-background, #1f222e);
+	border: none;
+	width: 100%;
+	display: flex;
+	width: 258px;
+	padding: 7px 12px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
 }
